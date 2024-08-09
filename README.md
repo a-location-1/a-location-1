@@ -1,6 +1,6 @@
 a-location-1 (he/him/his)
 
-As of Jun 2024, I am learning database fundamentals using SQL by setting up containers with Docker.
+In 2024, I'm studying the basics of database management as I develop my skills with SQL and python. 
 
 <!---
 a-location-1/a-location-1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
