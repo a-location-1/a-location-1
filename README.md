@@ -7,6 +7,7 @@ In 2025, I built an ETL pipeline using SQL Alchemy for SEIS-630 Database Managem
 In 2024, I worked on a personal project [ingested and analyzed the text of Gertrude Stein's *Tender Buttons*](https://a-location-1.github.io/tender-buttons/) to develop my skills with SQL and Python. 
 
 <!---
-a-location-1/a-location-1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+a-location-1/a-location-1 is a special repository because `README.md` (this file) appears on your GitHub profile.
 --->
+
+<!--- a-location1 is also the repository for my GitHub Pages. --->
