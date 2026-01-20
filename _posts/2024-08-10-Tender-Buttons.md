@@ -1,32 +1,36 @@
 ---
-title: "Tender Butons Project"
+title: "Tender Buttons Project"
 date: 2024-08-10
 ---
 
-## Welcome
+![Mequitta Ahuja, Le Damn Revisited, 2018](https://github.com/a-location-1/tender-buttons/blob/main/images/Mequitta-Ahuja-218.png?raw=true)
+
+###### Mequitta Ahuja, *Le Damn Revisited*, 2018. [From the digital portfolio.](http://www.mequittaahuja.com/digital-portfolio.html) 
+
+###### In *Le Damn Revisted*, the artist sits in front of a depiction of one of her earlier works, *Le Damn*, an interpretation of Picasso's *Les Demoiselles D'Avignon.* *Le Damn Revisited* is an iteration on *Xpect*, a similar composition in which the the artist sits before *Le Damn* and holds a sonogram; Ahuja used *Xpect* to announce her pregnancy in 2018. Combining the historical context of art history with the contemporary landscape of social media, *Le Damn Revisited* introduces many of the same themes explored by this data analysis project: meaning created through careful patterns, repetition as a core faucet of process, the treatment of historical works with current technology, and the importance of critiquing Picasso. 
+
+
+#### Introduction
 
 > In the inside there is sleeping, in the outside there is reddening, in the morning there is meaning, in the evening there is feeling. In the evening there is feeling.
 
-Welcome! This is a blog documenting the Tender Buttons Project. This project uses the basic tools of data analysis to engage with the structure and language of Gertrude Stein's 1914 book of prose poems, *Tender Buttons*. *Tender Buttons* is in the public domain, and can be read many places, [such as at Project Gutenberg](https://www.gutenberg.org/files/15396/15396-h/15396-h.htm).
+This self-directed project uses the basic tools of data analysis to engage with the structure and language of Gertrude Stein's 1914 book of prose poems, *Tender Buttons*. *Tender Buttons* is in the public domain ([Project Gutenberg text](https://www.gutenberg.org/files/15396/15396-h/15396-h.htm)).
 
-This project is: 
- - A learning exercise (think "hello world").
- - A public record that might encourage engagement with *Tender Buttons*.
- - A potential jumping off point for larger-scale, semi-automated analyses of texts, particularly performance texts. We'll see what happens! 
-
-## Why Tender Buttons?
+#### Why analyze Tender Buttons?
 
 Modernist writing has a reputation for difficulty; data analysis is a way to approach modernist texts from a different angle. 
 
-In a 1946 interview Stein described the process of writing *Tender Buttons*: "I used to take objects on a table, like a tumbler or any kind of object and try to get the picture of it clear and separate in my mind and create a word relationship between the word and the things seen. [...] I try to call to the eye the way it appears by suggestion the way a painter can do it. This is difficult and takes a lot of work and concentration to do it. I want to indicate it without calling in other things."[^1] 
+In a 1946 interview Stein described the process of writing *Tender Buttons*: "I used to take objects on a table, like a tumbler or any kind of object and try to get the picture of it clear and separate in my mind and create a word relationship between the word and the things seen. [...] I try to call to the eye the way it appears by suggestion the way a painter can do it. This is difficult and takes a lot of work and concentration to do it. I want to indicate it without calling in other things."[^1]
 
-*Tender Buttons* is a product of tremendous attention, making it a perfect candidate for sustained analysis. It's also serendipitous that "tender buttons" sounds like one of GitHub's randomly generated names for a new repository - the legacy of modernism in contemporary form. 
+*Tender Buttons* is a product of tremendous attention, making it a perfect candidate for sustained analysis. 
+
+It's also serendipitous that "tender buttons" sounds like one of GitHub's randomly generated names for a new repository - the legacy of modernism in contemporary form.
 
 ![Damien Elwes, Picasso's studio at Bateau Lavoir 1908, 2010](https://github.com/a-location-1/tender-buttons/blob/main/images/Damien-Elwes-2010.png?raw=true)
 
 ###### Detail of Damien Elwes, *Picasso's studio at Bateau Lavoir 1908* (2010).[^2] Robert Bartlett Haas writes that "*Tender Buttons* was to Gertrude Stein's development what the "Demoiselles d'Avignon" was to Picasso's, a key work marked with the enormous struggle of creating a new value."[^3]
 
-## The Project Plan
+#### The Project Plan
 
 > A glass is of any height, it is higher, it is simpler and if it were placed there would not be any doubt. 
 
