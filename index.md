@@ -1,4 +1,5 @@
 ---
-Adam Levonian's Data Science Portfolio
+layout: home
 ---
 
+### Data Science Portfolio
