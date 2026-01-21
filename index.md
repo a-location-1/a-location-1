@@ -2,4 +2,4 @@
 layout: home
 ---
 
-### Data Science Portfolio
+Photo forthcoming. 
