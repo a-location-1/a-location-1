@@ -3,58 +3,52 @@ title: "Tender Buttons Project"
 date: 2024-08-10
 ---
 
-![Mequitta Ahuja, Le Damn Revisited, 2018](https://github.com/a-location-1/tender-buttons/blob/main/images/Mequitta-Ahuja-218.png?raw=true)
+<img src="https://github.com/a-location-1/tender-buttons/blob/main/images/Mequitta-Ahuja-218.png?raw=true" alt="Mequitta Ahuja's 2018 painting Le Damn Revisited" style="width:40%; height:auto;">
 
-###### Mequitta Ahuja, *Le Damn Revisited*, 2018. [From Mequitta Ahuja's digital portfolio.](http://www.mequittaahuja.com/digital-portfolio.html) 
-
-###### In *Le Damn Revisted*, Mequitta Ahuja sits in front of a depiction of *Le Damn*, the artist's earlier interpretation of Picasso's *Les Demoiselles D'Avignon.* *Le Damn Revisited* also iterates on *Xpect*, a similar composition in which the the artist sits before *Le Damn* and holds a sonogram; Ahuja used *Xpect* to announce her pregnancy in 2018. Combining the historical context of art history with the contemporary landscape of social media, *Le Damn Revisited* introduces many of the same themes explored by this data analysis project: meaning created through careful patterns, repetition as a core faucet of process, the treatment of historical works with current technology, and the importance of critiquing Picasso. 
-
+###### Mequitta Ahuja, *Le Damn Revisited*, 2018.[^1]
 
 #### Introduction
 
 > In the inside there is sleeping, in the outside there is reddening, in the morning there is meaning, in the evening there is feeling. In the evening there is feeling.
 
-This self-directed project uses the basic tools of data analysis to engage with the structure and language of Gertrude Stein's 1914 book of prose poems, *Tender Buttons*. *Tender Buttons* is in the public domain ([Project Gutenberg text](https://www.gutenberg.org/files/15396/15396-h/15396-h.htm)).
+This self-directed project uses the basic tools of data analysis to engage with the structure and language of Gertrude Stein's 1914 book of prose poems, *Tender Buttons*. 
+
+*Tender Buttons* is in the public domain, [and is available at Project Gutenberg](https://www.gutenberg.org/files/15396/15396-h/15396-h.htm).
 
 #### Why analyze Tender Buttons?
 
 Modernist writing has a reputation for difficulty; data analysis is a way to approach modernist texts from a different angle. 
 
-In a 1946 interview Stein described the process of writing *Tender Buttons*: "I used to take objects on a table, like a tumbler or any kind of object and try to get the picture of it clear and separate in my mind and create a word relationship between the word and the things seen. [...] I try to call to the eye the way it appears by suggestion the way a painter can do it. This is difficult and takes a lot of work and concentration to do it. I want to indicate it without calling in other things."[^1]
-
-*Tender Buttons* is a product of tremendous attention, making it a perfect candidate for sustained analysis. 
+*Tender Buttons* is a product of tremendous attention, making it a perfect candidate for sustained analysis. In a 1946 interview Stein described the process of writing *Tender Buttons*: "I used to take objects on a table, like a tumbler or any kind of object and try to get the picture of it clear and separate in my mind and create a word relationship between the word and the things seen. [...] I try to call to the eye the way it appears by suggestion the way a painter can do it. This is difficult and takes a lot of work and concentration to do it. I want to indicate it without calling in other things."[^2]
 
 It's also serendipitous that "tender buttons" sounds like one of GitHub's randomly generated names for a new repository - the legacy of modernism in contemporary form.
 
-![Damien Elwes, Picasso's studio at Bateau Lavoir 1908, 2010](https://github.com/a-location-1/tender-buttons/blob/main/images/Damien-Elwes-2010.png?raw=true)
+<img src="https://github.com/a-location-1/tender-buttons/blob/main/images/Damien-Elwes-2010.png?raw=true" alt="Damien Elwes' 2010 painting Picasso's studio at Bateau Lavoir" style="width:50%; height:auto;">
 
-###### Detail of Damien Elwes, *Picasso's studio at Bateau Lavoir 1908* (2010).[^2] Robert Bartlett Haas writes that "*Tender Buttons* was to Gertrude Stein's development what the "Demoiselles d'Avignon" was to Picasso's, a key work marked with the enormous struggle of creating a new value."[^3]
+###### Detail of Damien Elwes, *Picasso's studio at Bateau Lavoir 1908* (2010).[^3] Robert Bartlett Haas writes that "*Tender Buttons* was to Gertrude Stein's development what the "Demoiselles d'Avignon" was to Picasso's, a key work marked with the enormous struggle of creating a new value."[^4]
 
-#### The Project Plan
+#### Project Overview
 
 > A glass is of any height, it is higher, it is simpler and if it were placed there would not be any doubt. 
 
-The project requires five steps:
-1. *Text Import.* Acquire the text from somewhere.
-2. *Text Cleaning.* Organize the text in a useful way.
-3. *Text Export.* Move the data into a relational database.
-4. *Data Analysis.* Design queries that pull meaning from the data.
-5. *Data Visualization.* Display the results of the analysis. 
+The project uses five stages:
 
-The plan is to iterate through these steps multiple times, refining the process and using different tools to achieve better results. Here's my plan for iteration one: 
+| Stage      | Implementation | 
+| ----------- | ----------- | 
+| *Ingestion.* Import the text. | **Python.** Read the text from a local .txt file. | 
+| *Data Cleaning.* Organize the text in a useful way. | **Python.** Brute force through the text to identify and organize the words. | 
+| *Loading.* Export the data to a relational database. | **Python, DBBrowser for SQLite.** Export the table of words to .csv, and upload the .csv into DBBrowser. | 
+| *Data Analysis.* Query the data. | **SQLite.** Run a battery of basic queries in an attempt to find interesting patterns. | 
+| *Data Visualization.* Display the results.  | **LibreOffice's Calc Spreadsheet.** Display the results in a static worksheet. | 
 
-| Stage      | Iteration One | Iteration Two | Iteration Three |
-| ----------- | ----------- | ----------- | ----------- | 
-| *Text Import*      | **Python.** Read the text from a local .txt file.   | TBD | TBD |
-| *Text Cleaning*   | **Python.** Brute force through the text to identify and organize the words.   | TBD | TBD |
-| *Text Export*   | **Python, DBBrowser for SQLite.** Export the table of words to .csv, and upload the .csv into DBBrowser. | TBD | TBD |
-| *Data Analysis*   | **SQLite.** Run a battery of basic queries in an attempt to find interesting patterns. | TBD | TBD |
-| *Data Visualization*   | **LibreOffice's Calc Spreadsheet.** Display the results in a static worksheet.   | TBD | TBD |
+#### Results
 
-Each blog post after this one will detail the process and results of a new iteration. The idea is to avoid getting bogged down by mistakes and chase improvements across the board: in data accuracy, in procedural integrity, in complexity of analysis, in scalability, and in theoretical relevance. Please [contact me on GitHub](https://github.com/a-location-1) if you have any questions or suggestions. Thanks! 
+Here are some basic results: TBD. 
 
-[^1]: "A Transatlantic Interview--1946." *A Primer for the Gradual Understanding of Gertrude Stein.* Ed. Robert Bartlett Haas. Black Sparrow Press, 1971. 
+[^1]: From [Mequitta Ahuja's digital portfolio.](http://www.mequittaahuja.com/digital-portfolio.html). In *Le Damn Revisted* (2018), Mequitta Ahuja sits in front of a depiction of *Le Damn*, the artist's earlier interpretation of Picasso's *Les Demoiselles D'Avignon*. *Le Damn Revisited* also iterates on *Xpect*, a similar composition in which the the artist sits before *Le Damn* and holds a sonogram; Ahuja used *Xpect* to announce her pregnancy in 2018. Combining the historical context of art history with the contemporary landscape of social media, *Le Damn Revisited* introduces many of the same themes explored by this data analysis project: meaning created through careful patterns, repetition as a core faucet of process, the treatment of historical works with current technology, and the importance of critiquing Picasso. 
 
-[^2]: Printed in Baiges, Maite Méndez. "After Picasso: Reinterpretations and recreations of *Les Demoiselles D'Avignon* in Contemporary Art." *Les Demoiselles d'Avignon and Modernism.* Firenze University Press, 2022.
+[^2]: "A Transatlantic Interview--1946." *A Primer for the Gradual Understanding of Gertrude Stein.* Ed. Robert Bartlett Haas. Black Sparrow Press, 1971. 
 
-[^3]: "A Transatlantic Interview--1946."  
+[^3]: Printed in Baiges, Maite Méndez. "After Picasso: Reinterpretations and recreations of *Les Demoiselles D'Avignon* in Contemporary Art." *Les Demoiselles d'Avignon and Modernism.* Firenze University Press, 2022.
+
+[^4]: "A Transatlantic Interview--1946."  
