@@ -19,13 +19,21 @@ This self-directed project uses the basic tools of data analysis to engage with 
 
 Modernist writing has a reputation for difficulty; data analysis is a way to approach modernist texts from a different angle. 
 
-*Tender Buttons* is a product of tremendous attention, making it a perfect candidate for sustained analysis. In a 1946 interview Stein described the process of writing *Tender Buttons*: "I used to take objects on a table, like a tumbler or any kind of object and try to get the picture of it clear and separate in my mind and create a word relationship between the word and the things seen. [...] I try to call to the eye the way it appears by suggestion the way a painter can do it. This is difficult and takes a lot of work and concentration to do it. I want to indicate it without calling in other things."[^2]
+*Tender Buttons* in particular is the perfect candidate for sustained analysis because its substance - the meaning of the words, the sound of the words, the length of the words, the order of the words, the selection of certain words and not others - is the product of tremendous attention. In a 1946 interview Stein described the process of writing *Tender Buttons*: "I used to take objects on a table, like a tumbler or any kind of object and try to get the picture of it clear and separate in my mind and create a word relationship between the word and the things seen. [...] I try to call to the eye the way it appears by suggestion the way a painter can do it. This is difficult and takes a lot of work and concentration to do it. I want to indicate it without calling in other things."[^2]
 
-It's also serendipitous that "tender buttons" sounds like one of GitHub's randomly generated names for a new repository - the legacy of modernism in contemporary form.
+Modernist writers like Gertrude Stein have fans and detractors - as Hermione Lee sums up the question, is Stein "the most remarkable creative experimentalist of her century or a ludicrously self-inflated, interlably repetitive, and dead-end mannerist--or perhaps a bit of both"?[^3]
+
+> A SUBSTANCE IN A CUSHION.
+>
+> The change of color is likely and a difference a very little difference is prepared. Sugar is not a vegetable.
+
+This project treats *Tender Buttons* as an experiment. What are the results of this experiment? Stein scholar Francesca Wade writes that in *Tender Buttons* "words are set free from the shackles of memory [...] and charged with the power to make the world afresh."[^4] If this is so, mutating the text through manipulation and analysis may help us see what changes have been wrought on the 10,101 unique words that make up the book. 
 
 <img src="https://github.com/a-location-1/tender-buttons/blob/main/images/Damien-Elwes-2010.png?raw=true" alt="Damien Elwes' 2010 painting Picasso's studio at Bateau Lavoir" style="width:50%; height:auto;">
 
-###### Detail of Damien Elwes, *Picasso's studio at Bateau Lavoir 1908* (2010).[^3] Robert Bartlett Haas writes that "*Tender Buttons* was to Gertrude Stein's development what the "Demoiselles d'Avignon" was to Picasso's, a key work marked with the enormous struggle of creating a new value."[^4]
+###### Detail of Damien Elwes, *Picasso's studio at Bateau Lavoir 1908* (2010).[^5] Robert Bartlett Haas writes that "*Tender Buttons* was to Gertrude Stein's development what the "Demoiselles d'Avignon" was to Picasso's, a key work marked with the enormous struggle of creating a new value."[^6]
+
+It's also serendipitous that "tender buttons" sounds like one of GitHub's randomly generated names for a new repository - the legacy of modernism in contemporary form.
 
 #### Project Overview
 
@@ -49,6 +57,10 @@ Here are some basic results: TBD.
 
 [^2]: "A Transatlantic Interview--1946." *A Primer for the Gradual Understanding of Gertrude Stein.* Ed. Robert Bartlett Haas. Black Sparrow Press, 1971. 
 
-[^3]: Printed in Baiges, Maite Méndez. "After Picasso: Reinterpretations and recreations of *Les Demoiselles D'Avignon* in Contemporary Art." *Les Demoiselles d'Avignon and Modernism.* Firenze University Press, 2022.
+[^3]: "Epic Ambitions: a Review of Francesca Wade's Gertrude Stein: An Afterlife." *The New York Review* (12 Feb 2026).
 
-[^4]: "A Transatlantic Interview--1946."  
+[^4]: *Gertrude Stein: An Afterlife.* Scribner, 2025.
+
+[^5]: Printed in Baiges, Maite Méndez. "After Picasso: Reinterpretations and recreations of *Les Demoiselles D'Avignon* in Contemporary Art." *Les Demoiselles d'Avignon and Modernism.* Firenze University Press, 2022.
+
+[^6]: "A Transatlantic Interview--1946."  
